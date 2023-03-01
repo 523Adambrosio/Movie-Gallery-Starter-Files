@@ -2,6 +2,7 @@
 //
 */
 
+
 /* NOTE: MOVIES.JSON CONTAINS A LIST OF MOVIES AND ACCOMPANYING METADATA
 //
 //    They are in the following format:
@@ -32,6 +33,7 @@ const vue_app = Vue.createApp({
       data() {
         return {
 
+
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
@@ -40,8 +42,6 @@ const vue_app = Vue.createApp({
      owner: 'Alex',
      github : "#",
      
-     
-
       }
        
     },
